@@ -6,16 +6,16 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage {
 
-    @FindBy(xpath = "//a[@href='register.htm']")
+    @FindBy(xpath = "//div[@id='leftPanel']//a[@href='register.htm']")
     private WebElement registerBtn;
 
-    @FindBy(xpath = "//input[@type='text']")
+    @FindBy(xpath = "//div[@id='leftPanel']//input[@type='text']")
     private WebElement usernameInput;
 
-    @FindBy(xpath = "//input[@type='password']")
+    @FindBy(xpath = "//div[@id='leftPanel']//input[@type='password']")
     private WebElement passwordInput;
 
-    @FindBy(xpath = "//input[@type='submit']")
+    @FindBy(xpath = "//div[@id='leftPanel']//input[@type='submit']")
     private WebElement logInBtn;
 
 

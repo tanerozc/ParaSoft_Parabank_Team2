@@ -6,28 +6,28 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage{
 
-    @FindBy(xpath = "//a[@href='openaccount.htm']")
+    @FindBy(xpath = "//div[@id='leftPanel']//a[@href='openaccount.htm']")
     private WebElement openNewAccountBtn1;
 
-    @FindBy(xpath = "//a[@href='overview.htm']")
+    @FindBy(xpath = "//div[@id='leftPanel']//a[@href='overview.htm']")
     private WebElement overviewBtn;
 
-    @FindBy(xpath = "//a[@href='transfer.htm']")
+    @FindBy(xpath = "//div[@id='leftPanel']//a[@href='transfer.htm']")
     private WebElement transferBtn;
 
-    @FindBy(xpath = "//a[@href='billpay.htm']")
+    @FindBy(xpath = "//div[@id='leftPanel']//a[@href='billpay.htm']")
     private WebElement billPayBtn;
 
-    @FindBy(xpath = "//a[@href='findtrans.htm']")
+    @FindBy(xpath = "//div[@id='leftPanel']//a[@href='findtrans.htm']")
     private WebElement findTransactionsBtn;
 
-    @FindBy(xpath = "//a[@href='updateprofile.htm']")
+    @FindBy(xpath = "//div[@id='leftPanel']//a[@href='updateprofile.htm']")
     private WebElement updateBtn;
 
-    @FindBy(xpath = "//a[@href='requestloan.htm']")
+    @FindBy(xpath = "//div[@id='leftPanel']//a[@href='requestloan.htm']")
     private WebElement requestLoanBtn;
 
-    @FindBy(xpath = "//a[@href='logout.htm']")
+    @FindBy(xpath = "//div[@id='leftPanel']//a[@href='logout.htm']")
     private WebElement logOutBtn;
 
     public LoginPage(WebDriver driver) {
