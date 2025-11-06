@@ -31,5 +31,6 @@ public class HomePage extends BasePage {
     public void clickLoginBtn(){
         clickElement(logInBtn);
     }
+    public void clickRegisterBtn(){clickElement(registerBtn);}
 
 }
