@@ -26,8 +26,6 @@ public class OpenNewAccountSteps {
         loginPage = new LoginPage(driver);
         newAccountPage = new NewAccountPage(driver);
 
-        driver.get("https://parabank.parasoft.com/");
-        LOGGER.info("Webpage opened");
     }
 
     @Then("User logs in to the ParaBank website")

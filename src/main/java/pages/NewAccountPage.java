@@ -15,7 +15,7 @@ public class NewAccountPage extends BasePage{
     @FindBy(xpath = "//select[@id='type']/option[@value='1']")
     private WebElement savingAccountBtn;
 
-    @FindBy(css = "#openAccountForm > form > div > input")
+    @FindBy(xpath = "//input[@type='button']")
     private WebElement openNewAccountBtn2;
 
     @FindBy(xpath = "//div[@id='openAccountResult']/a[@id='newAccountId']")
