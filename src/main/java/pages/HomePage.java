@@ -18,10 +18,18 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//div[@id='leftPanel']//input[@type='submit']")
     private WebElement logInBtn;
 
-
-
-
     public HomePage(WebDriver driver) {
         super(driver);
     }
+
+
+    public void enterUsernameAndPassword(final String username, final String password) {
+        sendKeysToElement(usernameInput, username);
+        sendKeysToElement(passwordInput, password);
+    }
+
+    public void clickLoginBtn(){
+        clickElement(logInBtn);
+    }
+
 }

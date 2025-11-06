@@ -12,7 +12,7 @@ public class BaseDriver {
     public static WebDriver getDriver() {
 
         driver = new ChromeDriver();
-        driver.get("https://o3.openmrs.org/openmrs/spa/login");
+        driver.get("https://parabank.parasoft.com/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
