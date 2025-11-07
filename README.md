@@ -4,7 +4,7 @@
 **Duration:** 1 Sprint (1 Week)  
 
 This project focuses on functional test automation for the **ParaBank** web application using **Java, Selenium WebDriver, TestNG, Cucumber (BDD)** and **Page Object Model (POM)** architecture.  
-All sprint activities, user stories, and test executions were tracked and managed using **Jira** and **Xray**. The test results and automation source code are maintained in this GitHub repository.
+All sprint activities, user stories, and test executions were tracked and managed using **Jira**. The test results and automation source code are maintained in this GitHub repository.
 
 ## Test Environment
 | Environment | URL |
@@ -16,7 +16,7 @@ All sprint activities, user stories, and test executions were tracked and manage
 - Develop end-to-end UI functional test automation
 - Apply BDD with Cucumber scenario structuring
 - Implement POM for maintainability
-- Manage sprint workflows and defects in Jira/Xray
+- Manage sprint workflows and defects in Jira
 - Produce structured execution and reporting outputs
 
 ## User Stories Covered
@@ -42,7 +42,7 @@ All sprint activities, user stories, and test executions were tracked and manage
 | Reporting | Extent Reports / Cucumber HTML |
 | Logs | Log4j / SLF4J |
 | Version Control | Git & GitHub |
-| Test Management | Jira & Xray |
+| Test Management | Jira  |
 | IDE | IntelliJ IDEA / Eclipse |
 
 ## 👥 Team
