@@ -22,6 +22,16 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
+    public void clickUserNameInput(final String userNameName){
+        clickElement(usernameInput);
+        sendKeysToElement(usernameInput,userNameName);
+    }
+
+    public void clickPasswordInput(final String passwordNumber){
+        clickElement(passwordInput);
+        sendKeysToElement(passwordInput,passwordNumber);
+    }
+
 
     public void enterUsernameAndPassword(final String username, final String password) {
         sendKeysToElement(usernameInput, username);
