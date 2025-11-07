@@ -6,6 +6,9 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage{
 
+    @FindBy(xpath = "//div[@id='rightPanel']//p")
+    WebElement messageCreatedAccount;
+
     @FindBy(xpath = "//div[@id='leftPanel']//a[@href='openaccount.htm']")
     private WebElement openNewAccountBtn1;
 
@@ -37,4 +40,9 @@ public class LoginPage extends BasePage{
     public void clickOpenNewAccountBtn(){
         clickElement(openNewAccountBtn1);
     }
+
+    public void verifyMessageCreatedAccount(){
+        verifyDisplayed(messageCreatedAccount,"New account was created");
+    }
+
 }
