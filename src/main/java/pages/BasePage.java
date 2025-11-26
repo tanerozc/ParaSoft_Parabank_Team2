@@ -78,6 +78,6 @@ public class BasePage {
 
     public void verifyDisplayed(final WebElement element, final String text) {
         wait.until(ExpectedConditions.visibilityOf(element));
-        Assert.assertTrue(element.isDisplayed(), text);
+        Assert.assertEquals(element, text);
     }
 }
